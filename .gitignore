@@ -1,0 +1,23 @@
+# Ignore downloaded GloVe files
+glove.6B.zip
+glove.6B.*.txt
+
+# Ignore output files
+grid_search_results.txt
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Common IDE files
+.vscode/
+.idea/
+
+# macOS artifacts
+.DS_Store
